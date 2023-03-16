@@ -25,12 +25,13 @@
 .logo {
   height: 20vh;
   width: 20vw;
+  margin: 10px;
   animation: shrinklogo 2s forwards 2s;
 }
 
 @keyframes movelogo {
   to {
-    transform: translate(3%, 3%);
+    transform: translate(0%, 0%);
   }
 }
 
