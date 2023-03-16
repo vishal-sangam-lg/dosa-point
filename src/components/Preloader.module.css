@@ -1,0 +1,42 @@
+.preloader {
+  position: absolute;
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  animation: preload 7s forwards;
+}
+
+@keyframes preload {
+  to {
+    background-color: transparent;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+.logoContainer {
+  height: 100vh;
+  width: 100vw;
+  object-fit: contain;
+  transform: translate(40%, 40%);
+  animation: movelogo 2s forwards 2s;
+}
+
+.logo {
+  height: 20vh;
+  width: 20vw;
+  animation: shrinklogo 2s forwards 2s;
+}
+
+@keyframes movelogo {
+  to {
+    transform: translate(3%, 3%);
+  }
+}
+
+@keyframes shrinklogo {
+  to {
+    height: 10vh;
+    width: 10vw;
+  }
+}

@@ -1,0 +1,10 @@
+.navbar {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  width: 100%;
+}
+
+.NavContainer {
+  background-color: #f47c7c;
+}

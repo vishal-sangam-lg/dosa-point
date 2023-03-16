@@ -1,0 +1,25 @@
+.orderOnlineContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.heading {
+  text-align: center;
+  margin: 50px 0 30px 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+img {
+  margin: 20px;
+}

@@ -1,0 +1,44 @@
+.food-gallary {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.verticalLine {
+  border-left: 6px solid;
+  height: 500px;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.heading {
+  text-align: center;
+  width: 30vw;
+}
+
+@media (max-width: 801px) {
+  .food-gallary {
+    display: block;
+    height: fit-content;
+    padding: 100px 0;
+  }
+  .heading {
+    width: 100%;
+  }
+}
