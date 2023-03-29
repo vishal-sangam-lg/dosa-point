@@ -1,7 +1,16 @@
 .food-gallary {
   height: 100vh;
+  max-width: 100vw;
   display: flex;
   align-items: center;
+}
+
+.mySwiper {
+  max-width: 100vw;
+}
+
+.swiper-wrapper {
+  max-width: 100vw;
 }
 
 .verticalLine {
